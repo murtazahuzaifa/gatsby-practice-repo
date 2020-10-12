@@ -1,0 +1,10 @@
+npm install -g netlify-cli
+
+netlify dev
+
+netlify login
+
+netlify deploy --prod
+
+netlify functions:create hello
+
