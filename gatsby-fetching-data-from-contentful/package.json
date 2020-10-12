@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-basic",
+  "name": "gatsby-with-graphql",
   "version": "1.0.0",
   "private": true,
-  "description": "this is example of using typescript and (dynamic and static) routes",
+  "description": "this is example of fetching data from a Headless CMS with graphql like contentful ",
   "author": "Murtaza",
   "keywords": [
     "gatsby"
@@ -15,11 +15,14 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^14.1.1",
     "@types/react": "^16.9.52",
     "@types/react-dom": "^16.9.8",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.24.67",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-typescript": "^2.4.21",
+    "gatsby-source-contentful": "^2.3.51",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
