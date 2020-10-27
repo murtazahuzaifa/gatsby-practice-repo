@@ -1,12 +1,11 @@
 import React, { FC, ReactElement } from 'react'
-import {PageProps} from 'gatsby';
 import PageLayout from '../components/PageLayout';
 import { documentToReactComponents, Options } from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types'
 // import { ContentfulRichTextProps } from './ContentfulrichText.models'
 
 interface Prop {
-    title?: string, slug?: string, imgSrc?: string, content?: any
+    pageContext?: { title?: string, slug?: string, imgSrc?: string, content?: any }
 }
 
 // src = https://www.contentfulcommunity.com/t/no-embedded-images-with-rich-text-but-would-like-to-use-gatsby-image/3499
@@ -28,7 +27,7 @@ const options: Options = {
     }
 }
 
-const Post: FC<PageProps<{}, Prop>> = ({ pageContext }) => {
+const Post: FC<Prop> = ({ pageContext }) => {
     console.log(pageContext?.content.content)
     return (
         <PageLayout>
