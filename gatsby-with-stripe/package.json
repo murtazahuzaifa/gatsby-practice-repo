@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-with-stripe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "this is example of connecting payment gatway of strip with our site",
+  "author": "Murtaza murtaza.huzaifa2@gmail.com",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.2.1",
+    "@stripe/stripe-js": "^1.11.0",
+    "@types/react": "^16.9.52",
+    "@types/react-dom": "^16.9.8",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.24.67",
+    "gatsby-plugin-typescript": "^2.4.21",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "stripe": "^8.132.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.0"
+  }
+}

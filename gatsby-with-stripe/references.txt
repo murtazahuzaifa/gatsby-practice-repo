@@ -1,0 +1,2 @@
+https://stripe.com/docs/payments/accept-a-payment?integration=elements
+https://github.com/panacloud-modern-global-apps/jamstack-ecommerce
